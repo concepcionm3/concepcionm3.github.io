@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Webography Project</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Serif+4:ital,wght@0,300;0,400;1,300&display=swap');
+    :root { --ink:#1a1a2e; --paper:#f5f0e8; --accent:#8b2635; --rule:#c8bfae; --muted:#6b6158; }
+    * { box-sizing:border-box; margin:0; padding:0; }
+    body { background:var(--paper); color:var(--ink); font-family:'Source Serif 4',Georgia,serif; font-size:1.05rem; line-height:1.75; padding:3rem 1.5rem; }
+    .page { max-width:680px; margin:0 auto; }
+    header { border-top:3px solid var(--ink); border-bottom:1px solid var(--rule); padding:1.5rem 0 1.2rem; margin-bottom:2.5rem; }
+    header p { font-weight:300; font-size:0.95rem; color:var(--muted); letter-spacing:0.03em; }
+    header p + p { margin-top:0.15rem; }
+    h1 { font-family:'Playfair Display',Georgia,serif; font-size:1.85rem; font-weight:700; line-height:1.25; margin:1.5rem 0 0.5rem; }
+    .divider { border:none; border-top:1px solid var(--rule); margin:2rem 0; }
+    h2 { font-family:'Playfair Display',serif; font-size:1.1rem; font-weight:400; letter-spacing:0.08em; text-transform:uppercase; color:var(--muted); margin-bottom:1rem; }
+    ol { padding-left:1.5rem; }
+    ol li { margin-bottom:0.5rem; }
+    a { color:var(--accent); text-decoration:underline; text-underline-offset:3px; text-decoration-color:var(--rule); transition:text-decoration-color 0.2s; }
+    a:hover { text-decoration-color:var(--accent); }
+    .downloads { display:flex; gap:1rem; margin-top:1rem; }
+    .downloads a { display:inline-block; padding:0.45rem 1.1rem; border:1px solid var(--ink); color:var(--ink); text-decoration:none; font-size:0.9rem; letter-spacing:0.04em; transition:background 0.2s,color 0.2s; }
+    .downloads a:hover { background:var(--ink); color:var(--paper); }
+    footer { margin-top:3rem; border-top:1px solid var(--rule); padding-top:1rem; font-size:0.8rem; color:var(--muted); }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <p>Michael Concepcion</p>
+      <p>CSIT-08 &mdash; Webography Project</p>
+      <p>April 13, 2026</p>
+    </header>
+    <h1>Technology and Its Effect on Student Motivation and Engagement in Physical Education</h1>
+    <hr class="divider" />
+    <h2>Subtopics</h2>
+    <ol>
+      <li><a href="subtopic1.html">Wearable Devices in Physical Education</a></li>
+      <li><a href="subtopic2.html">Online Learning Platforms in Physical Education</a></li>
+      <li><a href="subtopic3.html">Gamification in Physical Education</a></li>
+    </ol>
+    <hr class="divider" />
+    <h2>Downloads</h2>
+
+<a href="Research Paper.docx">📄 Paper</a><br>
+<a href="Technology in Physical Education.pptx">📊 Presentation</a>
+    </div>
+    <footer>CSIT-08 &mdash; Webography Project &mdash; Michael Concepcion</footer>
+  </div>
+</body>
+</html>
